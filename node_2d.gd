@@ -8,4 +8,4 @@ func pepe() -> int:
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("ui_down"):
 		print(pepe())
-	print(500 * delta)
+	print(100 * delta)
